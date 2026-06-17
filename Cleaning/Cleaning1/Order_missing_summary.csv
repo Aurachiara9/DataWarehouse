@@ -1,0 +1,4 @@
+column,missing_count,missing_pct
+order_approved_at,160,0.16
+order_delivered_carrier_date,1783,1.79
+order_delivered_customer_date,2965,2.98
