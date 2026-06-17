@@ -1,0 +1,5 @@
+Table,Dimension,Score,Issues,Status,Details
+Product table,Completeness,0.990744,610,🟢,Missing per column: {'product_category_name': 610}
+Product table,Uniqueness,1.0,0,🟢,Duplicate rows on ['product_id']:0
+Product table,Validity,0.28163,23671,🔴,product_category_name: 23671 invalid
+Product table,Consistency,1.0,0,🟢,0 rows violate at least one consistency rule

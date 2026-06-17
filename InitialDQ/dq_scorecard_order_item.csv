@@ -1,0 +1,5 @@
+Table,Dimension,Score,Issues,Status,Details
+OrderItem table,Completeness,1.0,0,🟢,Missing per column: {}
+OrderItem table,Uniqueness,1.0,0,🟢,"Duplicate rows on ['order_id', 'order_item_id']:0"
+OrderItem table,Validity,1.0,0,🟢,order_id: 0 invalid | product_id: 0 invalid | seller_id: 0 invalid | shipping_limit_date: 0 invalid | price: 0 invalid | freight_value: 0 invalid
+OrderItem table,Consistency,1.0,0,🟢,0 rows violate at least one consistency rule

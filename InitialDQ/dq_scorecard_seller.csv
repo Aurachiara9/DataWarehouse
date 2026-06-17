@@ -1,0 +1,5 @@
+Table,Dimension,Score,Issues,Status,Details
+Seller table,Completeness,1.0,0,🟢,Missing per column: {}
+Seller table,Uniqueness,1.0,0,🟢,Duplicate rows on ['seller_id']:0
+Seller table,Validity,0.992246,24,🟢,seller_city: 24 invalid | seller_state: 0 invalid
+Seller table,Consistency,1.0,0,🟢,0 rows violate at least one consistency rule

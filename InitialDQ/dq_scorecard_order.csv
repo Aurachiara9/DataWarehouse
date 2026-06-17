@@ -1,0 +1,6 @@
+Table,Dimension,Score,Issues,Status,Details
+Order table,Completeness,0.993831,4908,🟢,"Missing per column: {'order_approved_at': 160, 'order_delivered_carrier_date': 1783, 'order_delivered_customer_date': 2965}"
+Order table,Uniqueness,1.0,0,🟢,Duplicate rows on ['order_id']:0
+Order table,Validity,1.0,0,🟢,customer_id: 0 invalid | order_purchase_timestamp: 0 invalid | order_approved_at: 0 invalid | order_delivered_carrier_date: 0 invalid | order_delivered_customer_date: 0 invalid | order_estimated_delivery_date: 0 invalid
+Order table,Consistency,0.981265,1863,🟢,1863 rows violate at least one consistency rule
+Order table,Timeliness,1.0,0,🟢,Future Dates > 2018: 0 | Stale < 2016: 0

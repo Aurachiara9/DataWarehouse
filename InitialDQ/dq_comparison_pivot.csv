@@ -1,0 +1,6 @@
+Dimension,Customer,Order,OrderItem,Product,ProductCategoryName,Seller
+Completeness,1.0,0.993831,1.0,0.990744,1.0,1.0
+Consistency,1.0,0.981265,1.0,1.0,1.0,1.0
+Timeliness,,1.0,,,,
+Uniqueness,1.0,1.0,1.0,1.0,1.0,1.0
+Validity,0.99999,1.0,1.0,0.28163,0.197183,0.992246
